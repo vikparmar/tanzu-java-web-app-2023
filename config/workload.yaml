@@ -7,6 +7,8 @@ metadata:
     apps.tanzu.vmware.com/auto-configure-actuators: "true"
     app.kubernetes.io/part-of: tanzu-java-web-app
     apps.tanzu.vmware.com/has-tests: "true"
+  annotations:
+    autoscaling.knative.dev/minScale: "1"  
 spec:
   params:
   - name: annotations
