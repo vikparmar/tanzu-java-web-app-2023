@@ -10,10 +10,10 @@ metadata:
   annotations:
     autoscaling.knative.dev/minScale: "1"  
 spec:
-  params:
-  - name: annotations
-    value:
-      autoscaling.knative.dev/minScale: "2"
+  # params:
+  # - name: annotations
+  #   value:
+  #     autoscaling.knative.dev/minScale: "2"
   source:
     git:
       url: https://github.com/vikparmar/tanzu-java-web-app-2023.git
